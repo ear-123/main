@@ -12,7 +12,7 @@ public class Hedgehog {
 
     public void speak(String text) {
         if(text == ""){
-            System.out.println("Olen " + this.name+ " ja ikäni on " + this.age + ", mutta antaisitko sili syötteen?");
+            System.out.println("Olen " + this.name+ " ja ikäni on " + this.age + " vuotta, mutta antaisitko sili syötteen?");
         }
         else {
             System.out.println(name + ": " + text);
