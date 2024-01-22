@@ -7,12 +7,13 @@ public class App {
     
         Hedgehog hedgehog = new Hedgehog();
         boolean exit = false;
+        Scanner scan = new Scanner(System.in);
 
         while (!exit) {
 
             System.out.println("1) Pistä siili puhumaan, 2) Luo uusi siili, 3) Juoksuta siiliä, 0) Lopeta ohjelma");
             
-            Scanner scan = new Scanner(System.in);
+            
 
             String strininput = scan.nextLine();
             int option = 0;
